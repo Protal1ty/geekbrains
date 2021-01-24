@@ -59,7 +59,7 @@
 # while True:
 #     stroka = input("vvedite (INT) chisla cherez probel, dlya otmeni vvedi bukvu ili oblazhaysya s probelami <<< ")
 #     stroka_new = stroka.split(" ")
-#     print(stroka_new)
+#     # print(stroka_new)
 #     status = 0
 #     for el in stroka_new:
 #         try:
@@ -67,10 +67,9 @@
 #         except ValueError:
 #             status = 1
 #             break
-#     print(sum)
+#     print("Summa", sum)
 #     if status == 1:
 #         break
-
 
 # 6
 
